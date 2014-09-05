@@ -1,0 +1,4 @@
+polidog_event_test_homepage:
+    path:     /test
+    defaults: { _controller: PolidogEventTestBundle:Default:index }
+

@@ -1,0 +1,10 @@
+parameters:
+
+services:
+    polidog.event_test.event_listner.pre_update:
+        class: Polidog\EventTestBundle\EventListener\PreUpdateSample
+        arguments:
+            - @logger
+        tags:
+          - name: doctrine.event_listener
+            event: preUpdate

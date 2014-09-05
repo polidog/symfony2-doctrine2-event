@@ -1,0 +1,4 @@
+polidog_event_test:
+    resource: "@PolidogEventTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
